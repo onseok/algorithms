@@ -14,7 +14,7 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val bw = BufferedWriter(OutputStreamWriter(System.out))
     val (n, m) = readLine().split(" ").map { it.toInt() }
     val adj = ArrayList<ArrayList<Int>>()
-    for (i in 0..n + 1) {
+    for (i in 0 until n + 1) {
         adj.add(ArrayList())
     }
     val deg = IntArray(n + 1)
