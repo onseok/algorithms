@@ -6,7 +6,7 @@ import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 
 
-const val MOD = 1_000_000_007
+private const val MOD = 1_000_000_007
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val n = readLine().toLong()
     val br = BufferedWriter(OutputStreamWriter(System.out))
