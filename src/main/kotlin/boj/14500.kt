@@ -36,7 +36,7 @@ fun main() {
     bw.close()
 }
 
-fun dfs(x: Int, y: Int, depth: Int, sum: Int) {
+private fun dfs(x: Int, y: Int, depth: Int, sum: Int) {
     if (depth == 4) {
         answer = max(sum, answer)
         return

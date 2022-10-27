@@ -72,7 +72,7 @@ fun findKeys(x: Int, y: Int): ArrayList<Int> {
     return result
 }
 
-fun dfs(depth: Int) { // depth는 깊이, 즉 현재 채워진 빈칸의 개수를 의미
+private fun dfs(depth: Int) { // depth는 깊이, 즉 현재 채워진 빈칸의 개수를 의미
     if (depth == emptyCount) {
         sudoku.forEach { row ->
             row.forEach { col ->
