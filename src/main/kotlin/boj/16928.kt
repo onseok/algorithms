@@ -7,7 +7,7 @@ import java.util.*
 // 사다리와 뱀은 모두 HashMap으로 관리한다.
 // 사다리나 뱀을 타는 것은 주사위 횟수에 포함되지 않는다.
 
-var map: HashMap<Int, Int>? = null
+private var map: HashMap<Int, Int>? = null
 
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))

@@ -3,7 +3,7 @@ import java.io.InputStreamReader
 import java.util.*
 
 lateinit var pq: PriorityQueue<Node>
-lateinit var parents: Array<Int>
+private lateinit var parents: Array<Int>
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     pq = PriorityQueue()
     val (v, e) = readLine().split(" ").map { it.toInt() }

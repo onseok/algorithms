@@ -11,7 +11,7 @@ val bw = BufferedWriter(OutputStreamWriter(System.out))
 val input = br.readLine().split(" ").map { it.toInt() }
 private var n: Int = input[0]
 var m: Int = input[1]
-var map = mutableListOf<List<Int>>()
+private var map = mutableListOf<List<Int>>()
 var isVisited: Array<Array<Boolean>> = Array(n) {
     Array(m) { false }
 }

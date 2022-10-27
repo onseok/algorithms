@@ -4,7 +4,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.PriorityQueue
 
-lateinit var parent: IntArray
+private lateinit var parent: IntArray
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val n = readLine().toInt()
     parent = IntArray(n + 1) { i -> i }

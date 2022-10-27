@@ -28,7 +28,7 @@ data class Star(var start: Int, var end: Int, var weight: Double) : Comparable<S
 
 data class Coordinate(var x: Double, var y: Double)
 
-lateinit var parents: IntArray
+private lateinit var parents: IntArray
 
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val n = readLine().toInt()

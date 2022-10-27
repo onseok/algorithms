@@ -6,7 +6,7 @@ import java.io.InputStreamReader
 var minusOneCnt: Int = 0
 var zeroCnt: Int = 0
 var oneCnt: Int = 0
-val arr: MutableList<List<Int>> = mutableListOf()
+private val arr: MutableList<List<Int>> = mutableListOf()
 
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
