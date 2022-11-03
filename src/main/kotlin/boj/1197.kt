@@ -2,7 +2,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-lateinit var pq: PriorityQueue<Node>
+private lateinit var pq: PriorityQueue<Node>
 private lateinit var parents: Array<Int>
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     pq = PriorityQueue()
@@ -46,7 +46,7 @@ fun find(x: Int): Int {
     return parents[x]
 }
 
-data class Node(val start: Int, val end: Int, val weight: Int) : Comparable<Node> {
+private data class Node(val start: Int, val end: Int, val weight: Int) : Comparable<Node> {
     override fun compareTo(n: Node): Int { // 가중치 기준 오름차순 정렬
         return weight - n.weight
     }

@@ -8,6 +8,7 @@ private lateinit var data: IntArray
 private lateinit var dp: Array<IntArray>
 private const val INF = Int.MAX_VALUE
 
+// https://loosie.tistory.com/365
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val n = readln().toInt()
     data = IntArray(n + 1)

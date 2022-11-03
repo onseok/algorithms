@@ -11,7 +11,7 @@ val input = br.readLine().split(" ").map { it.toInt() }
 var list = br.readLine().split(" ").map { it.toInt() }
 private val n = input[0]
 val m = input[1]
-val ans = IntArray(n)
+private val ans = IntArray(n)
 val isVisited = BooleanArray(n) { false }
 
 fun main() = with(br) {

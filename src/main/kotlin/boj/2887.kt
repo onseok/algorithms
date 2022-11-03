@@ -56,7 +56,7 @@ private fun find(x: Int): Int {
     return parent[x]
 }
 
-data class Node(val start: Int, val end: Int, val weight: Int) : Comparable<Node> {
+private data class Node(val start: Int, val end: Int, val weight: Int) : Comparable<Node> {
     override fun compareTo(other: Node): Int {
         return weight - other.weight
     }
