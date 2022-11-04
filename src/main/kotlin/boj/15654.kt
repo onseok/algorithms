@@ -10,7 +10,7 @@ val bw = BufferedWriter(OutputStreamWriter(System.out))
 val input = br.readLine().split(" ").map { it.toInt() }
 var list = br.readLine().split(" ").map { it.toInt() }
 private val n = input[0]
-val m = input[1]
+private val m = input[1]
 private val ans = IntArray(n)
 val isVisited = BooleanArray(n) { false }
 

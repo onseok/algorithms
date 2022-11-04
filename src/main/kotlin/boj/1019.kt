@@ -31,6 +31,7 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     println(ans.joinToString(" "))
 }
 
+// X를 10으로 나누며 자리수를 나눠 ans배열에 더한다.
 private fun calc(x: Int, point: Int) {
     var X = x
     while (X > 0) {
